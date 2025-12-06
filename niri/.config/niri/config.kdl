@@ -38,13 +38,13 @@ binds {
 
     // ─── Applications ───
     //MOD+RETURN                          hotkey-overlay-title="Open Terminal: alacritty" { spawn-sh "alacritty"; }
-    MOD+T                          hotkey-overlay-title="Open Terminal: alacritty" { spawn-sh "alacritty"; }
+    MOD+T                               hotkey-overlay-title="Open Terminal: alacritty" { spawn-sh "alacritty"; }
     MOD+SPACE                           hotkey-overlay-title="Open App Launcher: wofi" { spawn-sh "wofi"; }
-    //MOD+B                               hotkey-overlay-title="Open Browser: firefox" { spawn-sh "firefox"; }
+    //MOD+B                             hotkey-overlay-title="Open Browser: firefox" { spawn-sh "firefox"; }
     MOD+ALT+L                           hotkey-overlay-title="Lock Screen: swaylock" { spawn-sh "swaylock"; }
     
     // Please choose your own file manager
-    MOD+E                             hotkey-overlay-title="File Manager" { spawn-sh "cosmic-files"; }
+    MOD+E                               hotkey-overlay-title="File Manager" { spawn-sh "cosmic-files"; }
 
     // ─── Audio Controls ───
     // Example volume keys mappings for PipeWire & WirePlumber.
@@ -79,10 +79,12 @@ binds {
     MOD+CTRL+DOWN                       { move-window-down; }
     MOD+CTRL+J                          { move-window-down; }
 
+
     MOD+HOME                            { focus-column-first; }
     MOD+END                             { focus-column-last; }
     MOD+CTRL+HOME                       { move-column-to-first; }
     MOD+CTRL+END                        { move-column-to-last; }
+
 
     MOD+SHIFT+LEFT                      { focus-monitor-left; }
     MOD+SHIFT+RIGHT                     { focus-monitor-right; }
@@ -100,10 +102,6 @@ binds {
     MOD+CTRL+WHEELSCROLLDOWN            cooldown-ms=150 { move-column-to-workspace-down; }
     MOD+CTRL+WHEELSCROLLUP              cooldown-ms=150 { move-column-to-workspace-up; }
 
-    MOD+WHEELSCROLLRIGHT                { focus-column-right; }
-    MOD+WHEELSCROLLLEFT                 { focus-column-left; }
-    MOD+CTRL+WHEELSCROLLRIGHT           { move-column-right; }
-    MOD+CTRL+WHEELSCROLLLEFT            { move-column-left; }
 
     MOD+SHIFT+WHEELSCROLLDOWN           { focus-column-right; }
     MOD+SHIFT+WHEELSCROLLUP             { focus-column-left; }
