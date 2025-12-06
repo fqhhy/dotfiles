@@ -65,10 +65,10 @@ binds {
     MOD+H                               { focus-column-left; }
     MOD+RIGHT                           { focus-column-right; }
     MOD+L                               { focus-column-right; }
-    MOD+UP                              { focus-window-up; }
-    MOD+K                               { focus-window-up; }
-    MOD+DOWN                            { focus-window-down; }
-    MOD+J                               { focus-window-down; }
+    MOD+UP                              { focus-window-or-workspace-up; }
+    MOD+K                               { focus-window-or-workspace-up; }
+    MOD+DOWN                            { focus-window-or-workspace-down; }
+    MOD+J                               { focus-window-or-workspace-down; }
 
     MOD+CTRL+LEFT                       { move-column-left; }
     MOD+CTRL+H                          { move-column-left; }
