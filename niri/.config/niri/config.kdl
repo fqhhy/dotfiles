@@ -82,14 +82,14 @@ binds {
     MOD+SHIFT+CTRL+J                    { move-column-to-monitor-down; }
 
 
-    //MOD+LEFT                            { focus-column-or-monitor-left; }
-    //MOD+RIGHT                           { focus-column-or-monitor-right; }
-    //MOD+UP                              { focus-window-or-workspace-up; }
-    //MOD+DOWN                            { focus-window-or-workspace-down; }
-    //MOD+CTRL+LEFT                       { move-column-left; }
-    //MOD+CTRL+RIGHT                      { move-column-right; }
-    //MOD+CTRL+UP                         { move-window-up; }
-    //MOD+CTRL+DOWN                       { move-window-down; }
+    MOD+LEFT                            { focus-column-or-monitor-left; }
+    MOD+RIGHT                           { focus-column-or-monitor-right; }
+    MOD+UP                              { focus-window-or-workspace-up; }
+    MOD+DOWN                            { focus-window-or-workspace-down; }
+    MOD+CTRL+LEFT                       { move-column-left-or-to-monitor-left; }
+    MOD+CTRL+RIGHT                      { move-column-right-or-to-monitor-right; }
+    MOD+CTRL+UP                         { move-window-up-or-to-workspace-up; }
+    MOD+CTRL+DOWN                       { move-window-down-or-to-workspace-down; }
 
 
     MOD+HOME                            { focus-column-first; }
